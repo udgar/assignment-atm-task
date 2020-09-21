@@ -62,8 +62,11 @@ No user interface is required.
 
 
 ### Evaluation Criteria
+In order of importance 
+
 * compiled code and all tests passing
 * code quality and simplicity, you should follow Java coding conventions and try to find the simplest solution.
+* proper user input validation
 * code duplication, you should minimize duplication to the minimum
 
 
