@@ -5,5 +5,5 @@ import java.util.List;
 
 public interface ATM {
 
-    List<Banknote> withdraw(long accountNumber, BigDecimal amount);
+    List<Banknote> withdraw(String accountNumber, BigDecimal amount);
 }

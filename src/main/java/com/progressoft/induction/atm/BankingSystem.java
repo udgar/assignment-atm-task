@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public interface BankingSystem {
 
-    BigDecimal getAccountBalance(long accountNumber);
+    BigDecimal getAccountBalance(String accountNumber);
 
-    void debitAccount(long accountNumber, BigDecimal amount);
+    void debitAccount(String accountNumber, BigDecimal amount);
 }
