@@ -1,8 +1,6 @@
-package com.progressoft.induction.atm.impl;
+package com.progressoft.induction.atm;
 
-import com.progressoft.induction.atm.ATM;
-import com.progressoft.induction.atm.AccountNotFoundException;
-import com.progressoft.induction.atm.Banknote;
+import com.progressoft.induction.atm.exceptions.AccountNotFoundException;
 import com.progressoft.induction.atm.exceptions.NotEnoughMoneyInATMException;
 import com.progressoft.induction.atm.exceptions.InsufficientFundsException;
 import org.junit.jupiter.api.Assertions;
@@ -18,7 +16,8 @@ class ATMTest {
 
     @BeforeEach
     void setUp() {
-        atm = new SimpleATM();
+        //TODO: initialize the atm here
+        atm = null;
     }
 
     @Test
