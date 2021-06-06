@@ -1,5 +1,6 @@
-package com.progressoft.induction.atm;
+package com.progressoft.induction.atm.bankingoperation;
 
+import com.progressoft.induction.atm.data.Banknote;
 import java.math.BigDecimal;
 import java.util.List;
 

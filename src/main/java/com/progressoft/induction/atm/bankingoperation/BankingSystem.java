@@ -1,4 +1,4 @@
-package com.progressoft.induction.atm;
+package com.progressoft.induction.atm.bankingoperation;
 
 import java.math.BigDecimal;
 

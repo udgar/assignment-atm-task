@@ -1,14 +1,17 @@
 package com.progressoft.induction.atm;
 
+import com.progressoft.induction.atm.data.Banknote;
+import com.progressoft.induction.atm.bankingoperation.ATMImp;
+import com.progressoft.induction.atm.bankingoperation.ATM;
 import com.progressoft.induction.atm.exceptions.AccountNotFoundException;
 import com.progressoft.induction.atm.exceptions.NotEnoughMoneyInATMException;
 import com.progressoft.induction.atm.exceptions.InsufficientFundsException;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.util.List;
+import org.junit.jupiter.api.BeforeEach;
 
 class ATMTest {
 
@@ -17,7 +20,7 @@ class ATMTest {
     @BeforeEach
     void setUp() {
         //TODO: initialize the atm here
-        atm = null;
+        atm = new ATMImp();
     }
 
     @Test

@@ -1,4 +1,4 @@
-package com.progressoft.induction.atm;
+package com.progressoft.induction.atm.data;
 
 import java.math.BigDecimal;
 
@@ -9,7 +9,7 @@ public enum Banknote {
     TWENTY_JOD(new BigDecimal("20.0")),
     FIFTY_JOD(new BigDecimal("50.0"));
 
-    private final BigDecimal value;
+    private BigDecimal value;
 
     Banknote(BigDecimal value) {
         this.value = value;
